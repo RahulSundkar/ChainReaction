@@ -1,4 +1,4 @@
-# ChainReactionGame
+# Chain Reaction Game
 Chain Reaction is a strategy game that involves two players. The goal of the game is to gain control of the board by eliminating the opponent's orbs.
 
 The game is played by taking turns placing orbs in cells on the board. When a cell becomes overloaded with orbs, it explodes into the surrounding cells, adding an extra orb and claiming the cell for the player. Orbs can only be placed in a cell that is either blank or contains orbs of the same color as the player.

@@ -1,0 +1,54 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+.container {
+    width: 500px;
+    align-content: center;
+}
+
+#title{
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+.newGame{
+    color : black;
+    text-align: center;
+    /* width: 3rem; */
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#turn{
+    text-align: center;
+    color: blue;
+}
+
+#grid {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 45px;
+    width: 45px;
+    border: 1px solid rgb(0, 255, 0);
+    text-align: center;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.p1 {
+    background-color: blue;
+}
+
+.p2 {
+    background-color: red;
+}
+
